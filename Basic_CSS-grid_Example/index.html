@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Basic Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <h3>CSS Grid Basic Examples</h3>
+
+     <div class="grid-demo">
+        <h4>3x2 Grid Layout</h4>
+        <div class="basic-grid">
+            <div class="grid-item">Item 1</div>
+            <div class="grid-item">Item 2</div>
+            <div class="grid-item">Item 3</div>
+            <div class="grid item">Item 4</div>
+            <div class="grid-item">Item 5</div>
+            <div class="grid-item">Item 6</div>
+        </div>
+        <p><small>Grid with 3 columns (1fr 2fr 1fr) - middle column is twice as wide</small></p>
+     </div>
+
+     <div class="grid-demo">
+        <h4>Understanding fr (fraction) Units</h4>
+        <div class="fraction-demo">
+            <div class="fraction-item">1fr<br><small>(1 part)</small></div>
+            <div class="fraction-item">2fr<br><small>(2 parts)</small></div>
+            <div class="fraction-item">1fr<br><small>(1 part)</small></div>
+        </div>
+        <p><small>Total: 4 parts. Column 1 gets 1/4, Column 2 gets 2/4 (half), Column 3 gets 1/4</small></p>
+     </div>
+</body>
+</html>

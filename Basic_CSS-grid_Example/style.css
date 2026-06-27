@@ -1,0 +1,42 @@
+body{padding: 0;
+     margin: 0;
+     font-family: 'poppins', sans-serif;}
+     
+.grid-demo {background-color: #f8f9fa;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            color: black;}
+
+.basic-grid{display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: auto auto;
+            gap: 15px;
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 5px;}
+
+.grid-item {background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 4px;
+            font-weight: bold;}
+            
+.grid-item:nth-child(1) {background-color: #dc3545;}
+.grid-item:nth-child(2) {background-color: #28a745;}
+.grid-item:nth-child(3) {background-color: #ffc107;}
+.grid-item:nth-child(4) {background-color: #17a2b8;}
+.grid-item:nth-child(5) {background-color: #6f42c1;}
+.grid-item:nth-child(6) {background-color: #fd7e14;}
+
+.fraction-demo {display: grid;
+                grid-template-columns: 1fr 2fr 1fr;
+                gap: 10px;
+                margin: 20px 0;}
+
+.fraction-item {background-color: #6c757d;
+                color: white;
+                padding: 15px;
+                text-align: center;
+                border-radius: 4px;}
